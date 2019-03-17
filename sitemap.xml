@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://www.tinastatic.com/</loc>
+
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/schematic-editor/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/live3d-breadboard/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/equation-editor/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/schematic-symbol-editor/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/component-toolbar-editor/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/excitation-editor/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/components/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/analog-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/digital-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/mixed-circuit-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/systemc/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/digital-vhdl-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/digital-verilog-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/verilog-a-and-ams-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/hdl-debugger/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/microcontroller-circuits/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/programming-and-debugging-mcus-using-c/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/flowchart-editor-and-debugger/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/matrix-flowcode/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/interactive-mode/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/symbolic-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/spice-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/ibis-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/stress-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/noise-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/smps-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tolerance-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/rf-design/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/network-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/spectrum-analysis-tools/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/circuit-design/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/optimization/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/pcb-design/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/presentation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/virtual-instruments/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/real-time-measurements/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/education/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/course.php</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/student-version/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/1200-problems-and-examples/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/textbook-support/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/teaching-and-training/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/creating-problems/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/analog-and-digital-communication-systems/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/electronic-design-from-concept-to-reality/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/switch-mode-power-supply/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/comparison/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/document/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/reviews-opinions/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/circuits/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tinacloud/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tinalab/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/labxplorer/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/demos/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/international-distributions/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/faq2/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/questions-and-answers-database/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/technical-support/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/events/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/blog/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/resources/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/about/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/whats-new/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/order-tinatinacloud/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/order-tinacloud-acces/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tina-new/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/privacy-policy-2/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/terms-of-use/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/a-homepage-section/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/circuit-gallery/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/circuits-on-the-web/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/contact/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/designsoft-main-page/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/documentation-2/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison-system-requirements/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison-calculation-2/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison-network-installation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison-new-features/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edison-video-tutorials/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edisoncloud/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/edisoncloud-documentation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/fpga-development-board/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/hdl-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/new-features-of-tinacloud/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/sample-page/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/support/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/linkedin_recommend/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tutorials/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tinalab-ii-brochure/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/tinalab-ii-high-speed-multifunction-pc-instrument/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/verilog-A-and-AMS-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/Digital-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/Digital-vhdl-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/Digital-verilog-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/Verilog-A-and-AMS-simulation/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/HDL-debugger/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/programming-and-debugging-MCUs-using-c/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/Flowchart-editor-and-debugger/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/SMPS-analysis/</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/1ohm/ohm.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/2series/series.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/3parallel/parallel.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/4seriespar/seriespar.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/5wye/wye.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/6voltage/voltage.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/7current/current.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/8power/power.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/9thevenin/thevenin.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/10norton/norton.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/11maxim/maxim.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/12super/super.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/13kirch/kirch.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/14node/node.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/15mesh/mesh.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/16complex/complex.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/17princip/princip.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/18passive/passive.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/19using/using.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/20voltage/voltage.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/21super/super.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/22thevenin/thevenin.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/221kirch/kirch.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/222note/note.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/23coupled/coupled.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/24periodic/periodic.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/26bode/bode.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/27bridge/bridge.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/28resonant/resonant.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/29power/power.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/30maximum/maximum.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/English/tina/course/31three/three.php</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/Tina-v12-manual.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/TINAv12_PCB_design_manual.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/ADVANCED%20TOPICS%20MANUAL.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/TinaCloud_manual.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/TINACloud_PCB_design_manual.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/v12/TINA_v12-A4.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/TINA-2pages.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/T9-EN12pages.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/T9-EN12pages-print.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/tinalab-II.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/TINALab_II_specification.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/Test_Card_Interface.doc</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/training.doc</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/Circuit_design_using_TINA_9.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/docs/Tina_paper_Electronics_World_1996.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tinastatic.com/wp-content/uploads/2018/12/tinalab-II-2016q-1.pdf</loc>
+
+  <priority>0.64</priority>
+</url>
+</urlset>
