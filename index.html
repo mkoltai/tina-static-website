@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TINA - Analog, Digital, MCU & Mixed Circuit Simulator</title>
+<meta name="description" content="TINA is a powerful circuit simulator for analog, digital, MCU and mixed circuit simulation with integrated PCB design, running both offline and online.">
+<meta name="keywords" content="circuit simulator, circuit simulation, software">
+
+<link rel="stylesheet" href="https://www.tinastatic.com/English/tina/main/css/styles.min1.2.css">
+<link href="images/favicon.gif" rel="shortcut icon" type="image/x-icon">
+</head><body>
+<div class="nav-no-js">
+<a href="#" class="nav-button">
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>
+</a>
+<nav class="nav">
+<ul>
+<li>
+<a href="#">TINA<span class="caretdown"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/">Main Features</a></li>
+<li class="nav-submenu"><a href="">Circuit Entry<span class="caretright"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/schematic-editor">Schematic Editor</a></li>
+<li><a href="https://www.tinastatic.com/live3d-breadboard">Live 3D Breadboard</a></li>
+<li><a href="https://www.tinastatic.com/equation-editor">Equation Editor</a></li>
+<li><a href="https://www.tinastatic.com/schematic-symbol-editor">Schematic Symbol Editor</a></li>
+<li><a href="https://www.tinastatic.com/component-toolbar-editor">Component Toolbar</a></li>
+<li><a href="https://www.tinastatic.com/excitation-editor">Excitation Editor</a></li>
+</ul>
+</li>
+<li><a href="https://www.tinastatic.com/components">Components</a></li>
+<li class="nav-submenu"><a href="">Analysis<span class="caretright"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/analog-simulation">Analog Simulation</a></li>
+<li><a href="https://www.tinastatic.com/digital-simulation">Digital Analysis</a></li>
+<li><a href="https://www.tinastatic.com/mixed-circuit-analysis">Extended Mixed Mode</a></li>
+<li class="nav-submenu"><a href="">HDL Simulation<span class="caretright"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/systemc">SystemC</a></li>
+<li><a href="https://www.tinastatic.com/digital-vhdl-simulation">VHDL Simulation</a></li>
+<li><a href="https://www.tinastatic.com/digital-verilog-simulation">Verilog Simulation</a></li>
+<li><a href="https://www.tinastatic.com/verilog-A-and-AMS-simulation">Verilog A and AMS Simulation</a></li>
+<li><a href="https://www.tinastatic.com/HDL-debugger">HDL Debugger</a></li>
+</ul>
+</li>
+<li><a href="https://www.tinastatic.com/microcontroller-circuits">MCU Simulation</a></li>
+<li><a href="https://www.tinastatic.com/programming-and-debugging-MCUs-using-c">Programming MCUs in C</a></li>
+<li><a href="https://www.tinastatic.com/Flowchart-editor-and-debugger">Programming MCUs with Flowchart</a></li>
+<li><a href="https://www.tinastatic.com/interactive-mode">Interactive Mode</a></li>
+<li><a href="https://www.tinastatic.com/symbolic-analysis">Symbolic Analysis</a></li>
+<li><a href="https://www.tinastatic.com/spice-simulation">Spice Simulation</a></li>
+<li><a href="https://www.tinastatic.com/SMPS-analysis">SMPS Analysis</a></li>
+<li><a href="https://www.tinastatic.com/stress-analysis">Stress Analysis</a></li>
+<li><a href="https://www.tinastatic.com/noise-analysis">Noise Analysis</a></li>
+<li><a href="https://www.tinastatic.com/tolerance-analysis">Monte-Carlo & Worst Case</a></li>
+<li><a href="https://www.tinastatic.com/rf-design">S-parameter Simulation</a></li>
+<li><a href="https://www.tinastatic.com/network-analysis">Network Analysis</a></li>
+<li><a href="https://www.tinastatic.com/spectrum-analysis">Spectrum Analysis</a></li>
+</ul>
+ </li>
+<li><a href="https://www.tinastatic.com/matrix-flowcode">Matrix Flowcode</a></li>
+
+<li><a href="https://www.tinastatic.com/optimization">Optimization</a></li>
+<li><a href="https://www.tinastatic.com/pcb-design">PCB Design</a></li>
+<li><a href="https://www.tinastatic.com/presentation">Presentation</a></li>
+<li><a href="https://www.tinastatic.com/virtual-instruments">Virtual Instruments</a></li>
+<li><a href="https://www.tinastatic.com/real-time-t-m">Real Time T&M</a></li>
+<li class="nav-submenu"><a href="">Education<span class="caretright"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/English/tina/course/course.php">Free AC/DC Course</a></li>
+<li><a href="https://www.tinastatic.com/student-version">Student Version</a></li>
+<li><a href="https://www.tinastatic.com/1200-problems-and-examples">1200 Problems and Examples</a></li>
+<li><a href="https://www.tinastatic.com/textbook-support">Textbook Support</a></li>
+<li><a href="https://www.tinastatic.com/teaching-and-training">Teaching and Training</a></li>
+<li><a href="https://www.tinastatic.com/live3d-breadboard">Live 3D Breadboard</a></li>
+<li><a href="https://www.tinastatic.com/Flowchart-editor-and-debugger">Flowchart Programming</a></li>
+<li><a href="https://www.tinastatic.com/symbolic-analysis-education">Symbolic Analysis</a></li>
+<li><a href="https://www.tinastatic.com/creating-problems">Creating Problem Sets</a></li>
+</ul>
+</li>
+<li class="nav-submenu"><a href="">E-Books<span class="caretright"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/analog-and-digital-communication-systems">Analog and Digital Communication Systems</a></li>
+<li><a href="https://www.tinastatic.com/electronic-design-from-concept-to-reality/">Electronic Design - From Concept to Reality</a></li>
+<li><a href="https://www.tinastatic.com/switch-mode-power-supply">Switch Mode Power Supply Templates</a></li>
+</ul>
+</li>
+<li><a href="https://www.tinastatic.com/comparison">Version Comparison</a></li>
+<li><a href="https://www.tinastatic.com/document">Documentation</a></li>
+<li><a href="https://www.tinastatic.com/reviews">Reviews & Opinions</a></li>
+<li><a href="https://www.tinastatic.com/circuits">TINA Circuits on Web</a></li>
+</ul>
+</li>
+<li>
+<a href="https://www.tinastatic.com/tinacloud/">TINACloud</a></li>
+<li class="nav-submenu"><a href="#">Related Products<span class="caretdown"></span></a>
+<ul>
+<li><a rel="nofollow" href="http://www.tinalab.com/English/tinalab/">TINALab</a></li>
+<li><a rel="nofollow" href="http://www.tinalab.com/English/labxplorer/">LabXplorer</a></li>
+<li><a rel="nofollow" href="http://www.tinalab.com/English/FPGA_Development/">FPGA Development</a></li>
+<li class="nav-submenu"><a href="http://www.edisonlab.com/English/edison/">EDISON<span class="caretright"></span></a>
+<ul>
+<li><a rel="nofollow" href="http://www.edisonlab.com/English/edison/">Product Info</a></li>
+<li><a rel="nofollow" href="http://www.edisonlab.com/English/edison/document">Documentation</a></li>
+</ul>
+</li>
+<li class="nav-submenu"><a rel="nofollow" href="http://www.edisonlab.com/English/edisoncloud/">EDISONCloud<span class="caretright"></span></a>
+<ul>
+<li><a rel="nofollow" href="http://www.edisonlab.com/English/edisoncloud/">Product Info</a></li>
+<li><a href="document">Documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.tinastatic.com/demos/">Demos</a></li>
+<li class="nav-submenu"><a href="#">Order<span class="caretdown"></span></a>
+<ul>
+<li><a rel="nofollow" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Buy TINA+ FREE TINACloud Access</a></li>
+<li><a rel="nofollow" href="https://www.designsoftware.com/orders/order01.php?id=tcloud">Buy TINACloud Access</a></li>
+</ul>
+</li>
+<li class="nav-submenu"><a href="#">Support<span class="caretdown"></span></a>
+<ul>
+<li><a href="https://www.tinastatic.com/international-distributions/">Distributors</a></li>
+<li><a href="https://www.tinastatic.com/document/">Documentation</a></li>
+<li><a href="https://www.tinastatic.com/faq2/">Frequently Asked Questions</a></li>
+<li><a href="https://www.tinastatic.com/questions-and-answers-database/">Questions and Answers Database</a></li>
+<li><a href="https://www.tinastatic.com/technical-support/">Contact Technical Support</a></li>
+<li><a href="http://forum.designsoftware.com/">DesignSoft Discussion Forum</a></li>
+<li><a href="https://www.youtube.com/user/TinaDesignSuite">Video Tutorials</a></li>
+<li><a href="https://www.tinastatic.com/events/">Events</a></li>
+<li><a href="https://www.tinacloud.com/tinaui/forum/">Shared Circuits Forum</a></li>
+</ul>
+</li>
+<li><a href="https://www.tinastatic.com/blog/" target="_blank">Blog</a></li>
+<li><a href="https://www.tinastatic.com/resources/" target="_blank">Resources</a></li>
+<li><a href="https://www.tinastatic.com/about" target="_blank">About</a></li>
+</ul>
+</nav>
+<a href="#" class="nav-close">
+<div class="bar4"></div>
+<div class="bar5"></div>
+<div class="bar6"></div>
+</a>
+</div><div>
+<img class="tinalogo" alt="DesignSoft Tina" src="https://www.tinastatic.com/English/tina/main/images/designsoft-tina.png">
+<hr>
+<div class="slideshow">
+<div class="slideshow-container">
+<div class="mySlides1 fade">
+<div class="text-content">
+<div class="tinaslidetitle" style="text-align:right">
+CIRCUIT SIMULATOR FOR
+<br>ANALOG, DIGITAL & MIXED CIRCUITS
+<br>and PCB DESIGN
+</div>
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_1.jpg" style="width:100%" alt="Tina v12 slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle3"><span style="color:#f60;font-weight:bold;">TINA DESIGN SUITE</span>
+<br>POWERFUL & AFFORDABLE SOFTWARE FOR
+</div>
+<div class="tinaslidelist">
+<ul>
+<li>Analog, Digital, MCU, RF, Symbolic simulation</li>
+<li>Spice, IBIS, HDL and S-parameter models</li>
+<li>VHDL, Verilog, Verilog-A & AMS, SystemC</li>
+<li>Monte-Carlo, Worst Case & Stress Analysis</li>
+<li>Interactive simulation and animation</li>
+<li>Virtual Instruments</li>
+<li>PCB Design with 3D view</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_2.jpg" style="width:100%" alt="Tina v12 slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">Mixed HDL Simulation</div>
+<div class="tinaslidelist">
+<ul>
+<li>VHDL, Verilog, SystemC</li>
+<li>VHDL and Verilog Debugger</li>
+<li>Verilog-A and Verilog-AMS</li>
+<li>Spice & HDL in same Circuit</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_3.jpg" style="width:100%" alt="Tina Mixed HDL slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">SMPS Simulation</div>
+<div class="tinaslidelist">
+<ul>
+<li>Fast multi-core analysis</li>
+<li>Large number of SMPS devices</li>
+<li>DC, AC and Transient Analysis</li>
+<li>Startup, Input and load step</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_4.jpg" style="width:100%" alt="Tina SMPS slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">Microcontroller Simulation</div>
+<div class="tinaslidelist">
+<ul>
+<li>MCU simulation in digital and mixed circuits</li>
+<li>Hex, ASM, C, Flowchart programming</li>
+<li>Hex, ASM, C, Flowchart Debugger</li>
+<li>PIC, AVR, ARM, ST, XMC, 8051, over 1400 MCUs</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_5.jpg" style="width:100%" alt="Tina MCU slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">Flexible Licensing Options</div>
+<div class="tinaslidelist">
+<ul>
+<li>Use in office and at home</li>
+<li>Use while you are mobile</li>
+<li>Educational site licenses</li>
+<li>Industrial site licenses</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_6.jpg" style="width:100%" alt="Tina Flexible Licensing slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">Integrated PCB design</div>
+<div class="tinaslidelist">
+<ul>
+<li>Fully integrated design system</li>
+<li>Autoplacement & autorouting</li>
+<li>Gerber and G-code output</li>
+<li>Flexible PCB layout, Enclosure</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_7.jpg" style="width:100%" alt="Tina PCB slideshow"></div>
+</div>
+<div class="mySlides1 fade">
+<div class="text-content">
+<a class="buttonfull demobutton" href="https://www.tinastatic.com/demos/">Download DEMO</a>
+<a class="buttonfull purchasebutton" href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Purchase FULL version<br><span style="font-size:14px;">+ get FREE TINACloud Access </span></a>
+<div class="tinaslidetitle2">TINACloud Interface</div>
+<div class="tinaslidelist">
+<ul>
+<li>Upload your designs to TINACLOUD</li>
+<li>Run anywhere on any platforms</li>
+<li>Download projects from TINACloud to PC</li>
+</ul>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/landing12-1400-400_8.jpg" style="width:100%" alt="TinaCloud slideshow"></div>
+</div>
+<a class="prev" onclick="plusSlides1(-1)">❮</a>
+<a class="next" onclick="plusSlides1(1)">❯</a>
+</div>
+</div><div class="container">
+<h1>CIRCUIT SIMULATOR FOR ANALOG, DIGITAL AND MIXED CIRCUIT SIMULATION AND PCB DESIGN</h1>
+<div class="box5"><img class="box5img" src="https://www.tinastatic.com/English/tina/main/images/play.jpg"><br><a href="https://www.youtube.com/watch?v=RwOUuTtioxQ&t=">What is TINA and TINACloud?</a></div>
+<div class="box5"><img class="box5img" src="https://www.tinastatic.com/English/tina/main/images/whats-new.jpg"><br><a href="https://www.tinastatic.com/whats-new/">What's new in TINA v12?</a></div>
+<div class="box5"><img class="box5img" src="https://www.tinastatic.com/English/tina/main/images/star.jpg"><br><a href="https://www.tinastatic.com/reviews-opinions/">Reviews & Opinions</a></div>
+<div class="box5"><img class="box5img" src="https://www.tinastatic.com/English/tina/main/images/buy.jpg"><br><a href="https://www.designsoftware.com/orders/order01.php?id=tina&saleno=tinatc">Buy TINA+ FREE TINACloud Access</a></div>
+<div class="box5"><img class="box5img" src="https://www.tinastatic.com/English/tina/main/images/buy.jpg"><br><a href="https://www.designsoftware.com/orders/order01.php?id=tcloud">Buy TINACloud Access</a></div>
+<div class="clear"></div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tinav12-Offline-Circuit.jpg">
+<h2>Offline Circuit Simulation with TINA</h2>
+<p>TINA Design Suite is a powerful yet affordable circuit simulator and PCB design software package for analyzing, designing, and real time testing of analog, digital, IBIS, HDL, MCU, and mixed electronic circuits and their PCB layouts. You can also analyze SMPS, RF, communication and<span id="dots1">...</span><span id="more1"> optoelectronic circuits; generate and debug MCU code using the integrated flowchart tool; and test microcontroller applications in a mixed circuit environment. You can analyze your circuit through more than 20 different analysis modes or with 10 high tech virtual instruments. Present your results in TINA’s sophisticated diagram windows, on virtual instruments, or in the live interactive mode where you can even edit your circuit during operation, develop, run, debug and test HDL & MCU applications. Electrical engineers will find TINA an easy to use, high performance tool, while educators will welcome its unique features for the training environment. Click here to see new features
+</span><br><button onclick="seeMore(1)" class="seeMoreBtn" id="seeMoreBtn1">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Online-Circuit-120-50.png">
+<h2>Online Circuit Simulation with TINACloud</h2>
+<p>With the TINACloud on-line circuit simulator, in additon to the installable versions, now you can also edit and run your schematic designs and their PCB layouts online on PCs, Macs, thin clients, tablets, smart phones, smart TVs and e-book readers without any installation. You can<span id="dots2">...</span><span id="more2"> use TINACloud in the office, classroom, at home and while travelling, anywhere in the world that has internet access. For limited time we are offering a FREE bundle of TINACloud with all new licenses of TINA.
+<br>Learn more about TINACloud at <a href="www.tina.com/tinacloud">www.tina.com/tinacloud</a>
+</span><br><button onclick="seeMore(2)" class="seeMoreBtn" id="seeMoreBtn2">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Model-development-150-50.jpg">
+<h2>Model Development</h2>
+<p>As a software company with extensive experience in circuit simulation and as a company that licenses software to the largest semiconductor companies in the world, DesignSoft has a unique insight as well as experience in developing device models. Our software and modeling capability<span id="dots3">...</span><span id="more3"> support SPICE, VHDL, Verilog, Verilog-AMS, SystemC models and mixed circuit models of modern integrated circuits. We create syntax compatible models for TINA, PSpice, SIMetrix, LTSpice and other simulators. Devices include Opamps, discrete semiconductors (diodes, MOSFETs, IGBTS etc.) SMPS ICs, LED drivers, AD and DA converters, Microcontrollers (ARM, PIC, AVR, XMC etc.) and more.
+As the developer of TINA, one of the fastest simulators on the market, we have a deep understanding of the simulation algorithms allowing us to advance accurate and time efficient device models.
+If you need model development services, please contact us.
+</span><br><button onclick="seeMore(3)" class="seeMoreBtn" id="seeMoreBtn3">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Spice-Simulation-120-50.jpg">
+<h2>Spice Simulation</h2>
+<p>TINA is one of the most powerful and best converging Spice simulator on the market. It includudes both Berkely Spice and XSpice based Spice engines, supports most Spice dialects with parallelised processing and precompiled models. In addition to the large Spice component libraries<span id="dots4">...</span><span id="more4"> in TINA,you can create new TINA components from any Spice subcircuit, whether created by yourself, downloaded from the Internet, obtained from a manufacturer’s CD or from portions of schematics turned into subcircuits. TINA automatically represents these subcircuits as a rectangular block, but you can create any shape you like with TINA’s Schematic Symbol Editor. You can also use TINA’s parameter extractor program to calculate model parameters from catalog or measurement data and then add the new devices into the catalog.
+</span><br><button onclick="seeMore(4)" class="seeMoreBtn" id="seeMoreBtn4">See more</button></p>
+</div>
+<div class="clear"></div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_ADC-DAC-Simulation-120-50.jpg">
+<h2>ADC & DAC Circuit Simulation</h2>
+<p>TINA includes models for modern DAC and ADC converters (SAR and Sigma-Delta) of leading manufactures (Analog Devices, Maxim Integated and Texas Intruments) with parallel and SPI interface. Now you can add IBIS modells to analyse signal integrity. Note modeling ADCs and DACs of high<span id="dots5">...</span><span id="more5"> complexity is a unique feature of TINA as very few software on the market can simulate complete DACs and ADCs at all.
+</span><br><button onclick="seeMore(5)" class="seeMoreBtn" id="seeMoreBtn5">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/Tina_HDL-Simulation-120-50.jpg">
+<h2>VHDL, Verilog, SystemC Circuit Simulation</h2>
+<p>TINA includes all major analog, digital and mixed Hardware Description Languages: VHDL, Verilog, Verilog-A, Verilog AMS and SysteC to verify designs in analog, digital and mixed-signal analog-digital environments. Your circuits can contain editable HDL blocks from the libraries of TINA<span id="dots6">...</span><span id="more6"> and Xilinx or other HDL components created by yourself or downloaded from the Internet. TINA compiles HDL into highly efficient machine code or you can use precompiled SystemC components for speed optimization. You can freely combine HDL and Spice macros and the schematic components of TINA. Also you can edit the HDL source of any HDL components then simulate and see the result instantly. With the built in HDL debugger you can execute the HDL code step-by-step, add breakpoints, watchpoints, display variable information and more. In addition to the large component libraries in TINA, you can create new TINA components from HDL subcircuits.
+</span><br><button onclick="seeMore(6)" class="seeMoreBtn" id="seeMoreBtn6">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Microcontroller-MCU-Simulation-120-50.jpg">
+<h2>Microcontroller (MCU) Circuit Simulation</h2>
+<p>TINA also includes a wide range of microcontrollers (PIC, AVR, 8051, HCS, ARM, ST, Arduino, XMC), more then 1400 parts, which you can test, debug and run interactively in mixed circuit environment. The built in MCU assembler allows you to modify your assembler code and see the<span id="dots7">...</span><span id="more7"> result promptly.
+You can also program and debug MCUs with the built-in flowchart tool or in C, using external C compilers and other code generators, including Microchip XC8, MATRIX FLOWCODE, Infineon’s DAVE for XMC & Arduino.
+</span><br><button onclick="seeMore(7)" class="seeMoreBtn" id="seeMoreBtn7">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Optimization-120-50.jpg">
+<h2>Circuit Design with Optimization</h2>
+<p>Using TINA’s built-in Optimization tool unknown circuit parameters can be determined automatically so that the network can produce a predefined target output values, minimum or maximum. Optimization is useful not only in the design of electroniccircuits, but also in teaching, to<span id="dots8">...</span><span id="more8"> construct examples and problems. It is a very good tool to refine the results provided by a design procedure or tune already working circuits.
+You can also optimize your circuit with the built in Design Tool of TINA working with Design Equations which you can add to any circuit.
+</span><br><button onclick="seeMore(8)" class="seeMoreBtn" id="seeMoreBtn8">See more</button></p>
+
+</div>
+<div class="clear"></div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Integrated-PCB-design-120-50a.jpg">
+<h2>Integrated PCB design</h2>
+<p>TINA also includes a powerful PCB designer software. The fully layout module of TINA has all the features you need for advanced PCB design, including multilayer PCB’s with split power plane layers, powerful autoplacement & autorouting, rip-up and reroute, manual and “follow-me”<span id="dots9">...</span><span id="more9"> trace placement, DRC, forward and back annotation, pin and gate swapping, keep-in and keep-out areas, copper pour, thermal relief, fanout, 3D view of your PCB design from any angle, Gerber file output andmuch more. You can also import 3D Enclosure models in industry standard formats, visualize along with your PCB design and print in 3D.
+</span><br><button onclick="seeMore(9)" class="seeMoreBtn" id="seeMoreBtn9">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_Virtual-Instruments-120-50.jpg">
+<h2>Simulated & Real-time measurements with Virtual Instruments</h2>
+<p>In addition to the classic analysis tools, TINA includes a wide range of virtual instruments: Oscilloscope, Function Generator, Multimeter, Signal Analyzer/Bode Plotter, Network Analyzer, Spectrum Analyzer, Logic Analyzer, Digital Signal Generator, XY Recorder, Efficiency-, Average<span id="dots10">...</span><span id="more10"> value- and Frequency meters. You can use these virtual instruments to make simulated measurements on your circuit in TINA or, if supplementary hardware is connected to your computer, turn your laptop or desktop computer into a powerful real-time test and measurement instrument and make measurements on real circuits.
+</span><br><button onclick="seeMore(10)" class="seeMoreBtn" id="seeMoreBtn10">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina_LabXplorer-TINALab-II-120-50.jpg">
+<h2>LabXplorer & TINALab II multifunction PC Instruments</h2>
+<p>TINA is much more than a circuit simulator with virtual instruments. Using the LabXplorer & TINALab II high speed PC instruments you can turn your laptop or desktop computer into a powerful, multifunction test and measurement instrument. Whichever instrument you need multimeter,<span id="dots11">...</span><span id="more11"> oscilloscope, spectrum analyzer, logic analyzer, arbitrary waveform generator, or digital signal generator it is at your fingertips with a click of the mouse. In addition TINALab II can be used with TINA for comparison of simulation and measurement results as a unique tool for circuit development, troubleshooting, and the study of analog and digital electronics.
+</span><br><button onclick="seeMore(11)" class="seeMoreBtn" id="seeMoreBtn11">See more</button></p>
+</div>
+<div class="contentbox">
+<img src="https://www.tinastatic.com/English/tina/main/images/tina-educational.png">
+<h2>Educational tools</h2>
+<p>TINA also includes unique tools for testing students’ knowledge, monitoring progress and introducing troubleshooting techniques using its educational capabilities. With optional hardware it can be used to test real circuits for comparison with the results obtained from simulation.<span id="dots12">...</span><span id="more12"> With the Live 3D breadboard tool you can automatically build a life-like 3D picture of a solderless breadboard. When you run TINA in interactive mode, components like switches, LEDs, instruments, etc. become “live” and will work on the virtual breadboard just as in reality. You can use this capability of TINA to prepare and document lab experiments. You can also use the integrated Flowchart Editor and Debugger to generate and debug the MCU code, learning and teaching microcontroller programming.
+</span><br><button onclick="seeMore(12)" class="seeMoreBtn" id="seeMoreBtn12">See more</button></p>
+</div>
+<div class="clear"></div>
+<div class="slideshow2">
+<div class="slideshow2-container">
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="https://www.infineon.com/"><img style="width:150px" src="https://www.tinastatic.com/English/tina/main/images/infineon-technologies.png"></a>
+<p>
+We successfully launched Infineon Designer powered by
+TINACloud as an online prototyping tool supporting our
+customers in selecting the right product for a defined
+application in a very short time. TINACloud is easy to use,
+runs without installation in any WEB browser extremely stable
+and fast. It serves Infineon's broad application portfolio ranging
+from power to mixed-signal and RF designs.</p>
+<p style="font-size:14px">
+<br>Norbert Imlig
+<br><i>Online Marketing Manager, Infineon Technologies AG</i></p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="http://www.ti.com/"><img style="width:150px" src="https://www.tinastatic.com/English/tina/main/images/logo-ti.jpg"></a>
+<p>
+TINA SPICE is an excellent circuit simulator. It converges quickly
+and has an intuitive graphical interface. New engineers have a
+very short learning curve when using this powerful tool.</p>
+<p style="font-size:14px">
+<br>Arthur Kay
+<br><i>Texas Instruments, Linear Applications Manager <br>High Performance Linear</i>
+</p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="https://www.maximintegrated.com/en.html"><img style="width:150px" src="https://www.tinastatic.com/English/tina/main/images/maxim-logo-web.jpg"></a>
+<p>
+I have used many different "flavors" of Spice over the past 25
+years. Over the last several years, my use of spice has been
+infrequent. Having to go back and relearn/recall how to use
+most spice tools is a chore. Tina, however is so intuitive that
+it takes virtually no time to get going again. In my experience
+it is, by far, the most intuitive and easy to use simulation tool
+on the market. It is ideal for the novice or occasional user AND
+it has all the capability a power user would need.</p>
+<p style="font-size:14px">
+<br>Mark Fortunato
+<br><i>Senior Principal MTS, Communications and
+<br>Automotive Solutions Group, Maxim Integrated </i>
+</p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="http://www.ti.com/"><img style="width:150px" alt="" src="https://www.tinastatic.com/English/tina/main/images/logo-ti.jpg"></a>
+<p>
+I’ve used many simulators, but none as easy to use or as fast
+as TINA. TINA’s multi-core support and enhanced convergence
+algorithms make simulation blazingly fast. I’ve modeled CM,
+VM, adaptive on-time converters of virtually every topology –
+resonant, PWM and quasi-resonant and simulations complete
+in seconds that previously took minutes! TINA’s interactive mode,
+symbolic analysis, interpreter, wizards, and design tools make
+TINA even more powerful! Import PSpice models seamlessly!
+</p>
+<p style="font-size:14px">
+<br>John Rice
+<br><i>Power Applications Engineer at Texas Instruments </i></p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="https://www.napier.ac.uk/"><img style="width:150px" alt="" src="https://www.tinastatic.com/English/tina/main/images/edinburg-napier.jpg"></a>
+<p>
+I have taught analog electronics at university level, using many
+different Spice front-ends - since it was a ‘deck of cards’. Over
+the last decade or so TINA has been my preferred circuit capture
+and analysis tool for electrical teaching, project work and some
+professional applications. TINA is intuitive to use, supportive in
+the process of correcting errors, and produces results very quickly.
+TINA has powerful analysis tools which assist in the understanding
+of circuit operation. It also has a very direct route to circuit
+realization. Our students adopt TINA as a versatile tool in their first
+year of electronic design and apply it throughout their degree
+course. It represents very good value.</p>
+<p style="font-size:14px">
+<br>Dr. T. David Binnie
+<br><i>Head of Engineering Research <br>School of Engineering and the Built Environment </i></p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="https://english.mirea.ru/"><img style="width:100px;float:left;" alt="" src="https://www.tinastatic.com/English/tina/main/images/mirea-logo.jpg"></a> <div class="partnermirea"> MIREA - Russian Technological University</div>
+<div style="clear:both;"></div>
+<p>
+I have taught electrical engineering, electronics and Computer-Aided
+Design (EDA) for more than 40 years at Moscow Technological
+University (MIREA). In my classes I have used numerous programs for
+modeling electronic circuits - from Electronics Workbench to OrCAD
+and SystemC. I am confident that for teaching electrical engineering
+and electronics TINA is the best software available.
+TINA has a very friendly graphical user interface, with simple settings
+and setup of simulations. All information about the circuit is enclosed
+in a single file, simulations are performed very quickly and accurately,
+with results displayed, so the process is easily mastered by students.</p>
+<p style="font-size:14px">
+<br>Alekhin Vladimir Alexandrovich
+<br><i>Doctor of Technical Sciences, Professor<br> Moscow Technological University (MIREA) </i></p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<div class="mySlides2">
+<div class="text-content2">
+<div class="slide2content">
+<a target="_blank" title="" href="https://www.uni-obuda.hu/en"><img style="width:150px" alt="" src="https://www.tinastatic.com/English/tina/main/images/obodai-university.png"></a>
+<p>
+We use the TINACloud program in classes for our correspondence
+courses. It is easy to use, works on all platforms and provides our
+students with easy access anytime and anywhere.
+Using TINACloud students are able to compare circuit simulation
+results with practical measurements conducted in laboratory.
+This makes long distance teaching and learning much more
+effective for our university.</p>
+<p style="font-size:14px">
+<br>Franciska Hegyesi
+<br><i>Office of Digital Teaching and Learning, Office Director<br>Óbuda University, Budapest</i></p>
+</div>
+</div>
+<div class="image-content"><img src="https://www.tinastatic.com/English/tina/main/images/Tina-our-clients-say.jpg" style="width:100%" alt="Tina v12 what our clients say"></div>
+</div>
+<a class="prev" onclick="plusSlides2(-1)">❮</a>
+<a class="next" onclick="plusSlides2(1)">❯</a>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<a href="https://www.tinastatic.com/privacy-policy-2/">Privacy Policy</a>
+| <a href="https://www.tinastatic.com/terms-of-use/">Terms of Use</a>
+| TINA - Circuit Simulator for Analog, RF, Digital, MCU, HDL & Mixed Mode Simulation and PCB Design
+<br>Copyright © 2019 DesignSoft, Inc. All rights reserved.
+</div>
+<script src="https://www.tinastatic.com/English/tina/main/js/tinamain.min1.5.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', ' UA-7338772-3 ', 'auto', {'allowLinker': true}); 
+ga('require', 'linker');
+// List of every domain to share linker parameters.
+ga('linker:autoLink', ['tina.com', 'designsoftware.com', 'designsoft.biz', 'edisonlab.com']);
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1072643789;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js" async defer>
+</script>
+<noscript>
+<div class="displayinline">
+<img height="1" width="1" class="bordernone" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1072643789/?value=0&guid=ON&script=0">
+</div>
+</noscript>
+
+<script type="text/javascript">
+	var trackcmp_email = '';
+	var trackcmp = document.createElement("script");
+	trackcmp.async = true;
+       trackcmp.defer = true;
+	trackcmp.type = 'text/javascript';
+	trackcmp.src = '//trackcmp.net/visit?actid=649180885&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+	var trackcmp_s = document.getElementsByTagName("script");
+	if (trackcmp_s.length) {
+		trackcmp_s[0].parentNode.appendChild(trackcmp);
+	} else {
+		var trackcmp_h = document.getElementsByTagName("head");
+		trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+	}
+</script>
+</body></html>
