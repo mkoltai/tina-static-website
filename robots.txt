@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /English/tina/wp-admin/
+Disallow: /English/tina/main/
+Allow: /English/tina/wp-admin/admin-ajax.php
